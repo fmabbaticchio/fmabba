@@ -6,99 +6,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fmabba</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <section>
-        <div>
-            <h1>Hi! My name is Maxi</h1>
+            <h1 class="test1">Hi! My name is Maxi</h1>
             <h2>I´m a front-end developer</h2>
             <img src="face.svg" alt="100">
-        </div>
-        <div> <!--creo que esto podria ser otra seccion-->
-        <h2>fmabba</h2>
-        <a href="#aboutme">About me</a>
-        <a href="#skills">Skills</a>
-        <a href="#contactme">Contact me</a>
-        </div>
-    </section>
-    <section>
-        <form id="aboutme">
-            <h2>Who am I?</h2>
-            <h1>Francisco Maximiliano Abbaticchio</h1>
-            <div>
-                <p>
-                    Hi! My name is Francisco Maximiliano Abbaticchio, but you can call me fmabba.
-                    I’ve been in many different industries before, from being a trained chef and
-                    working in kitchens all over my country, to managing construction budget and
-                    paperwork. Nowadays I am a Web Developer, and I'm very passionate and dedicated
-                    to my work. I love have acquiring new skills and the knowledge necessary to make
-                    every project a success.
-                </p>
-            </div>
-            <div>
+            <nav>
+                <h2>fmabba</h2>
+                <a href="#aboutme">About me</a>
+                <a href="#skills">Skills</a>
                 <a href="#contactme">Contact me</a>
-            </div>
-            <div>
-                <img src="calendar-pin.svg" alt="20">
-                <p>Born</p>
-                <p>October 21st 1981</p>
-                <img src="mail-pin.svg" alt="20">
-                <p>Located</p>
-                <p>La Plata, Buenos Aires, Argentina</p>
-                <img src="info-pin.svg" alt="20">
-                <p>Interests</p>
-                <p>Cooking, videogames & reading</p>
-                <img src="mail-pin.svg" alt="20">
-                <p>Email</p>
-                <p>franciscoabbaticchio@gmail.com</p>
-            </div>
-        </form>
+            </nav>
     </section>
-    <section>
-        <form id="skills">
-            <h2>What about my skills?</h2>
-            <h1>Crafting code is <del>an</del> my art</h1>
-            <div>
-                <img src="html-icon.png" alt="50">
-                <h3>HTML</h3>
-                <p>
-                    Getting the essentials right is as important, or even more,
-                    than knowing every single new shiny framework,
-                    the right tools for the right job.
-                </p>
-            </div>
-            <div>
-                <img src="css-icon.png" alt="50">
-                <h3>CSS</h3>
-                <p>
-                    If your site doesn’t look neat, how do you expect to everyone stay
-                    for more than 1 minute? Aesthetics, consistency and design are key to success.
-                </p>
-            </div>
-            <div>
-                <img src="javascript-icon.png" alt="50">
-                <!--solo consigo cambiar el color con CSS o editando la imagen-->
-                <h3>Javascript</h3>
-                <p>
-                    If your site doesn’t look neat, how do you expect to everyone stay
-                    for more than 1 minute? Aesthetics, consistency and design are key to success.
-                </p>
-            </div>
-        </form>
-    </section>
-    <section>
+    <section id="aboutme">
+        <h2>Who am I?</h2>
+        <h1>Francisco Maximiliano Abbaticchio</h1>
         <div>
-            <h2>Do you have any questions?</h2>
-            <h1>Contact me</h1>
-            <form id="contactme">
-                <label for="name">Name:</label>
-                <input placeholder="name" type="text" id="name" name="name" required>
-                <label for="email">E-mail:</label>
-                <input placeholder="email" type="text" id="email" name="email" required>
-                <textarea name="Message" id="Message" cols="120" rows="10" required></textarea>
-                <input type="submit" value="Send">
-            </form>
+            <p>
+                Hi! My name is Francisco Maximiliano Abbaticchio, but you can call me fmabba.
+                I’ve been in many different industries before, from being a trained chef and
+                working in kitchens all over my country, to managing construction budget and
+                paperwork. Nowadays I am a Web Developer, and I'm very passionate and dedicated
+                to my work. I love have acquiring new skills and the knowledge necessary to make
+                every project a success.
+            </p>
+        </div>
+        <div>
+            <a href="#contactme">Contact me</a>
+        </div>
+        <div>
+            <img src="calendar-pin.svg" alt="20">
+            <p>Born</p>
+            <p>October 21st 1981</p>
+            <img src="mail-pin.svg" alt="20">
+            <p>Located</p>
+            <p>La Plata, Buenos Aires, Argentina</p>
+            <img src="info-pin.svg" alt="20">
+            <p>Interests</p>
+            <p>Cooking, videogames & reading</p>
+            <img src="mail-pin.svg" alt="20">
+            <p>Email</p>
+            <p>franciscoabbaticchio@gmail.com</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>What about my skills?</h2>
+        <h1>Crafting code is <del>an</del> my art</h1>
+        <div>
+            <img src="html-icon.png" alt="Html">
+            <h3>HTML</h3>
+            <p>
+                Getting the essentials right is as important, or even more,
+                than knowing every single new shiny framework,
+                the right tools for the right job.
+            </p>
+        </div>
+        <div>
+            <img src="css-icon.png" alt="CSS">
+            <h3>CSS</h3>
+            <p>
+                If your site doesn’t look neat, how do you expect to everyone stay
+                for more than 1 minute? Aesthetics, consistency and design are key to success.
+            </p>
+        </div>
+        <div>
+            <img src="javascript-icon.png" alt="Javascript">
+            <h3>Javascript</h3>
+            <p>
+                If your site doesn’t look neat, how do you expect to everyone stay
+                for more than 1 minute? Aesthetics, consistency and design are key to success.
+            </p>
+        </div>
+    </section>
+    <section id="contactme">
+        <h2>Do you have any questions?</h2>
+        <h1>Contact me</h1>
+        <label for="name">Name:</label>
+        <input placeholder="Jane Doe" type="text" id="name" name="name" required>
+        <label for="email">E-mail:</label>
+        <input placeholder="janedoe@max.com" type="text" id="email" name="email" required>
+        <div>
+            <label for="Message">Message:</label>
+            <textarea placeholder="Message" name="Message" id="Message" cols="120" rows="10" required></textarea>
+            <input type="submit" value="Send">
         </div>
     </section>
 </body>
