@@ -11,16 +11,18 @@
 
 <body>
     <section>
-            <h1 class="test1">Hi! My name is Maxi</h1>
-            <h2>I´m a front-end developer</h2>
-            <img src="face.svg" alt="100">
-            <nav>
-                <h2>fmabba</h2>
-                <a href="#aboutme">About me</a>
-                <a href="#skills">Skills</a>
-                <a href="#contactme">Contact me</a>
-            </nav>
+        <h1>Hi! My name is Maxi</h1>
+        <h2>I´m a front-end developer</h2>
+        <img src="img/face.svg" alt="100">
     </section>
+    <nav>
+        <a class="test1">fmabba</a>
+        <div>
+            <a href="#aboutme">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#contactme">Contact me</a>
+        </div>
+    </nav>
     <section id="aboutme">
         <h2>Who am I?</h2>
         <h1>Francisco Maximiliano Abbaticchio</h1>
@@ -38,16 +40,16 @@
             <a href="#contactme">Contact me</a>
         </div>
         <div>
-            <img src="calendar-pin.svg" alt="20">
+            <img src="calendar-pin.svg" alt="calendar">
             <p>Born</p>
             <p>October 21st 1981</p>
-            <img src="mail-pin.svg" alt="20">
+            <img src="mail-pin.svg" alt="map">
             <p>Located</p>
             <p>La Plata, Buenos Aires, Argentina</p>
-            <img src="info-pin.svg" alt="20">
+            <img src="info-pin.svg" alt="info">
             <p>Interests</p>
             <p>Cooking, videogames & reading</p>
-            <img src="mail-pin.svg" alt="20">
+            <img src="mail-pin.svg" alt="email">
             <p>Email</p>
             <p>franciscoabbaticchio@gmail.com</p>
         </div>
@@ -84,15 +86,17 @@
     <section id="contactme">
         <h2>Do you have any questions?</h2>
         <h1>Contact me</h1>
-        <label for="name">Name:</label>
-        <input placeholder="Jane Doe" type="text" id="name" name="name" required>
-        <label for="email">E-mail:</label>
-        <input placeholder="janedoe@max.com" type="text" id="email" name="email" required>
-        <div>
-            <label for="Message">Message:</label>
-            <textarea placeholder="Message" name="Message" id="Message" cols="120" rows="10" required></textarea>
-            <input type="submit" value="Send">
-        </div>
+        <form action="">
+            <label for="name">Name:</label>
+            <input placeholder="Jane Doe" type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input placeholder="janedoe@max.com" type="text" id="email" name="email" required>
+            <div>
+                <label for="Message">Message:</label>
+                <textarea placeholder="Message" name="Message" id="Message" cols="120" rows="10" required></textarea>
+                <input type="submit" value="Send">
+            </div>
+        </form>
     </section>
 </body>
 

@@ -1,6 +1,9 @@
-body {
-    background-color: rgba(103, 175, 247, 0.883)
+nav {
+    display: flex; justify-content:flex-end; flex-direction:row; align-content:space-between;
 }
-h1 {
-    color: black;
+#test1 {
+    align-self: flex-start;
+}
+#position {
+    display: block; flex-direction: column; align-content: center;
 }
