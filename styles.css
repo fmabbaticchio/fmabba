@@ -348,18 +348,31 @@
     display: none;
   } 
   /*end normalize*/
+  * {
+    box-sizing: border-box;
+  }
 
   .header{
     background-image: url("img/patagonia-header.svg");
     background-position: center;
-    background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
+  }
+  .innerheader {
+    text-align: center;
+  }
+
+  .face-container {
+    margin-top: 200px;
+    display: inline-flex;
+    background: white;
+    border-radius: 50%;
+    width: 310px;
+    height: 310px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-  }
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2);
+}
 
   .container {
     width: 1193px;
