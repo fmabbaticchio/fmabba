@@ -345,55 +345,55 @@
    */
   
   [hidden] {
-    display: none;
+      display: none;
   } 
   /*end normalize*/
   * {
-    box-sizing: border-box;
+      box-sizing: border-box;
   }
 
   .header{
-    background-image: url("img/patagonia-header.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+      background-image: url("img/patagonia-header.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
   }
   .innerheader {
     text-align: center;
   }
 
   .face-container {
-    margin-top: 200px;
-    display: inline-flex;
-    background: white;
-    border-radius: 50%;
-    width: 310px;
-    height: 310px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2);
+      margin-top: 200px;
+      display: inline-flex;
+      background: white;
+      border-radius: 50%;
+      width: 310px;
+      height: 310px;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
   .container {
-    width: 1193px;
-    margin: 0 auto;
-    max-width: 100%;
+      width: 1193px;
+      margin: 0 auto;
+      max-width: 100%;
   }
 
   .nav {
-    background: #2D2D2D;
-    color: #FFFFFF;
+      background: #2D2D2D;
+      color: #FFFFFF;
   }
 
   .container-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
   }
 
   .nav a {
-    color: #FFFFFF;
-    opacity: 0.8;
-    text-decoration: none;
-    margin-left: 40px;
+      color: #FFFFFF;
+      opacity: 0.8;
+      text-decoration: none;
+      margin-left: 40px;
   }
