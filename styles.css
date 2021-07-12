@@ -350,6 +350,11 @@
   /*end normalize*/
 
   .header{
+    background-image: url("img/patagonia-header.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
