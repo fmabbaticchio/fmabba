@@ -397,3 +397,46 @@
       text-decoration: none;
       margin-left: 40px;
   }
+
+  .who {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .text-button {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 30%;
+    margin-left: 120px;
+  }
+
+  .general-who {
+    display: flex;
+    flex-flow: column;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .icons1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+
+  .icons2 {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    margin-left: 100px;
+    justify-content: space-around;
+  }
+
+  .skills1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  
