@@ -454,12 +454,10 @@ template {
   display: inline-block;
   font-size: 16px;
   border-radius: 8px;
-
 }
 
 .arrow-button1 {
   position: absolute;
-  
 }
 
 .subsection-half {
@@ -470,10 +468,23 @@ template {
   padding: 0 40px;
 }
 
+.image-pin {
+  width: 16px;
+  height: 16px;
+  background-color: rgba(45, 45, 45, 0.2);
+  border-radius: 6px;
+}
+
 .list-me {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .skills1 {
