@@ -383,6 +383,10 @@ template {
   box-sizing: border-box;
 }
 
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .header {
   background-image: url("img/patagonia-header.svg");
   background-position: center;
