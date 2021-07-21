@@ -442,6 +442,7 @@ template {
 .subsection-text {
   margin-top: 0;
   line-height: 32px;
+  margin-bottom: 40px;
 }
 
 .button1 {
@@ -451,28 +452,34 @@ template {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   font-size: 16px;
   border-radius: 8px;
+
 }
 
 .arrow-button1 {
-  position: absolute;
+  margin-left: 1em;
 }
 
 .subsection-half {
   display: flex;
   align-items: start;
   flex-direction: column;
-  max-width: 50%;
+  width: 50%;
   padding: 0 40px;
 }
 
 .image-pin {
   width: 16px;
   height: 16px;
+}
+
+.pin {
+  display: flex;
   background-color: rgba(45, 45, 45, 0.2);
-  border-radius: 6px;
+  border-radius: 8px;
+  padding: 8px;
 }
 
 .list-me {
@@ -483,8 +490,12 @@ template {
 
 .list-items {
   display: flex;
-  justify-content: space-between;
-  
+  margin-bottom: 32px;
+  align-items: center;
+}
+
+.list-items strong {
+  margin: 0 24px;
 }
 
 .skills1 {
