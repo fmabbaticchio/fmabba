@@ -459,7 +459,6 @@ html {
   display: flex;
   font-size: 16px;
   border-radius: 8px;
-
 }
 
 .arrow-button1 {
@@ -506,4 +505,23 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.codebox {
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  box-sizing: border-box;
+  border-radius: 16px;
+  width: 385px;
+  height: 385px;
+  left: 124px;
+  top: 1734px;
+}
+
+.skillboxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+,.codebox-javascritp {
+  background: black;
 }

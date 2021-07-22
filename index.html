@@ -73,35 +73,37 @@
         </div>
     </div>
     </section>
-    <section id="skills">
+    <section class="container" id="skills">
         <div class="section-title skills1">
             <h2>What about my skills?</h2>
             <h1>Crafting code is <del>an</del> my art</h1>
         </div>
-        <div>
-            <img src="img/html-icon.svg" alt="Html">
-            <h3>HTML</h3>
-            <p>
-                Getting the essentials right is as important, or even more,
-                than knowing every single new shiny framework,
-                the right tools for the right job.
-            </p>
-        </div>
-        <div>
-            <img src="img/css-icon.svg" alt="CSS">
-            <h3>CSS</h3>
-            <p>
-                If your site doesn’t look neat, how do you expect to everyone stay
-                for more than 1 minute? Aesthetics, consistency and design are key to success.
-            </p>
-        </div>
-        <div>
-            <img src="img/javascript-icon.svg" alt="Javascript">
-            <h3>Javascript</h3>
-            <p>
-                If your site doesn’t look neat, how do you expect to everyone stay
-                for more than 1 minute? Aesthetics, consistency and design are key to success.
-            </p>
+        <div class="skillboxes" >
+            <div class="codebox">
+                <img src="img/html-icon.svg" alt="Html">
+                <h3>HTML</h3>
+                <p>
+                    Getting the essentials right is as important, or even more,
+                    than knowing every single new shiny framework,
+                    the right tools for the right job.
+                </p>
+            </div>
+            <div class="codebox">
+                <img src="img/css-icon.svg" alt="CSS">
+                <h3>CSS</h3>
+                <p>
+                    If your site doesn’t look neat, how do you expect to everyone stay
+                    for more than 1 minute? Aesthetics, consistency and design are key to success.
+                </p>
+            </div>
+            <div class="codebox skillboxes-javascritp">
+                <img src="img/javascript-icon.svg" alt="Javascript">
+                <h3>Javascript</h3>
+                <p>
+                    If your site doesn’t look neat, how do you expect to everyone stay
+                    for more than 1 minute? Aesthetics, consistency and design are key to success.
+                </p>
+            </div>
         </div>
     </section>
     <section id="contactme">
@@ -109,7 +111,7 @@
             <h2>Do you have any questions?</h2>
             <h1>Contact me</h1>
         </div>
-        <form action="mailto">
+        <form class="container" action="mailto">
             <label for="name">Name:</label>
             <input placeholder="Jane Doe" type="text" id="name" name="name" required>
             <label for="email">E-mail:</label>
