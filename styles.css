@@ -528,10 +528,36 @@ html {
 
 input[type=text] {
   padding:10px;
-  margin:10px 0; // add top and bottom margin
+  margin:10px 0;
 }
 
-.inputdata {
+.name-holder {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+}
+
+.email-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactdata {
+  display: flex;
+  justify-content: space-evenly;
+  }
+
+.subdiv-name {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 0;
+}
+
+.subdiv-email {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 0;
 }

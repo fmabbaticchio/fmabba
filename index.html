@@ -106,18 +106,22 @@
             </div>
         </div>
     </section>
-    <section id="contactme">
+    <section class="container" id="contactme">
         <div class="section-title">
             <h2>Do you have any questions?</h2>
             <h1>Contact me</h1>
         </div>
-        <form class="container" action="mailto">
-            <div class="">
-                <div class="row inputdata" >
-                    <label for="name">Name:</label>
-                    <input placeholder="Jane Doe" type="text" id="name" name="name" required>
-                    <label for="email">E-mail:</label>
-                    <input placeholder="janedoe@max.com" type="text" id="email" name="email" required>
+        <form action="mailto">
+            <div class="contactdata">
+                <div class="container row">
+                    <div class="subdiv-name name-holder">
+                        <label for="name">Name:</label>
+                        <input placeholder="Jane Doe" type="text" id="name" name="name" required>
+                    </div>
+                    <div class="subdiv-email email-holder">
+                        <label for="email">E-mail:</label>
+                        <input placeholder="janedoe@max.com" type="text" id="email" name="email" required>
+                    </div>
                 </div>
             </div>
             <div>
