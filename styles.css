@@ -379,12 +379,31 @@ template {
 }
 
 /*end normalize*/
+
+@font-face {
+  font-family: space-grotesk;
+  src: url('spacegrotesk-regular-webfont.woff2') format('woff2'),
+  url('spacegrotesk-regular-webfont.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: space-grotesk;
+  src: url('spacegrotesk-bold-webfont.woff2') format('woff2'),
+  url('spacegrotesk-bold-webfont.woff') format('woff');
+  font-weight: 600;
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
   font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: space-grotesk;
 }
 
 .header {
