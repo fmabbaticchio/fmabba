@@ -407,14 +407,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  background-image: url("img/patagonia-header.svg");
+  background: linear-gradient(rgba(45, 45, 45, 0.8), rgba(45, 45, 45, 0.8)), url("../img/patagonia-header.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 170px;
 }
 
 .innerheader {
   text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.white-maxi {
+  color: white;
+}
+
+.header-title {
+  line-height: 50px;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.header-subtitle {
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 25px;
 }
 
 .face-container {
@@ -438,6 +457,8 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
   background: #2D2D2D;
   color: #FFFFFF;
+  height: 80px;
+  display: flex;
 }
 
 .container-nav {
@@ -532,8 +553,6 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
   border-radius: 16px;
   width: 30%;
-  left: 124px;
-  top: 1734px;
   padding: 40px;
   margin: 65px 0px 120px 0px;
   line-height: 28px;
