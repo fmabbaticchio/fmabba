@@ -580,19 +580,12 @@ input[type=text] {
   margin:10px 0;
 }
 
-.subdiv-name {
+.subdiv-name-email {
   display: flex;
   align-items: start;
   flex-direction: column;
   width: 50%;
-  margin: 0;
-}
-
-.subdiv-email {
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-  width: 50%;
+  max-width: 100%;
   margin: 0;
 }
 
@@ -610,7 +603,13 @@ input[type=text] {
   font-size: 14px;
   line-height: 18px;
   color: rgba(45, 45, 45, 0.8);
+}
 
+.email-position-font {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(45, 45, 45, 0.8);
 }
 
 .text-area {
@@ -619,21 +618,8 @@ input[type=text] {
   width: 60%;
 }
 
-.button-submit {
+.button2 {
   width: 122px;
   height: 48px;
-  margin-bottom: 124px;
-  margin-top: 28px;
-  display: flex;
-  align-self: flex-end;
-  background-color: #2D2D2D;
-  color: #FFFFFF;
-  font-size: 16px;
-  line-height: 32px;
-  border-radius: 8px;
-  margin: 8px 60px 8px 24px;
-}
-
-.arrow-button2 {
-  margin-left: 1em;
+  margin-top: 32px;
 }
