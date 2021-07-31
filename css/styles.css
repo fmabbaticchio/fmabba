@@ -580,27 +580,12 @@ input[type=text] {
   margin:10px 0;
 }
 
-.name-holder {
-  display: flex;
-  flex-direction: column;
-}
-
-.email-holder {
-  display: flex;
-  flex-direction: column;
-}
-
-.contactdata {
-  display: flex;
-  justify-content: space-evenly;
-  }
-
 .subdiv-name {
   display: flex;
   align-items: start;
   flex-direction: column;
   width: 50%;
-  margin-left: 0;
+  margin: 0;
 }
 
 .subdiv-email {
@@ -608,5 +593,21 @@ input[type=text] {
   align-items: start;
   flex-direction: column;
   width: 50%;
-  margin-right: 0;
+  margin: 0;
+}
+
+.contact-section-title {
+  margin-top: 120px;
+}
+
+.contact-section-subtitle {
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+
+.name-email-position.font {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+  color: rgb(45, 45, 45, 0.8);
 }
