@@ -402,7 +402,7 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .font-name-email-message {
   font-family: space-grotesk;
 }
 
@@ -591,11 +591,22 @@ input[type=text] {
 
 .contact-section-title {
   margin-top: 120px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(45, 45, 45, 0.6);
 }
 
 .contact-section-subtitle {
   margin-top: 16px;
   margin-bottom: 64px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  color: #2D2D2D;
+    
 }
 
 .name-position-font {
@@ -616,6 +627,27 @@ input[type=text] {
   display: flex;
   flex-direction: column;
   width: 60%;
+}
+
+.font-name-email-message {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 18px;
+}
+
+.input-text-rectangle {
+  width: 385px;
+  height: 40px;
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: #2D2D2D 40%;
 }
 
 .button2 {
