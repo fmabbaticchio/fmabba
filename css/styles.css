@@ -542,10 +542,8 @@ h1, h2, h3, h4, h5, h6, .font-name-email-message {
 }
 
 .skills1 {
-  display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 120px;
 }
 
 .codebox {
@@ -554,7 +552,7 @@ h1, h2, h3, h4, h5, h6, .font-name-email-message {
   border-radius: 16px;
   width: 30%;
   padding: 40px;
-  margin: 65px 0px 120px 0px;
+  margin-top: 65px;
   line-height: 28px;
 }
 
@@ -589,16 +587,16 @@ input[type=text] {
   margin: 0;
 }
 
-.contact-section-title {
-  margin-top: 120px;
+.section-title {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: rgba(45, 45, 45, 0.6);
+  margin-top: 120px;
 }
 
-.contact-section-subtitle {
+.section-subtitle {
   margin-top: 16px;
   margin-bottom: 64px;
   font-style: normal;
@@ -629,6 +627,14 @@ input[type=text] {
   width: 60%;
 }
 
+.message-textarea-margin {
+  margin-top: 32px;
+}
+
+.textarea-margin {
+  margin-top: 16px;
+}
+
 .font-name-email-message {
   font-size: 14px;
   font-weight: 700;
@@ -647,11 +653,21 @@ input[type=text] {
   font-weight: 400;
   font-size: 14px;
   line-height: 32px;
-  color: #2D2D2D 40%;
+  color: #2D2D2D;
 }
 
 .button2 {
   width: 122px;
   height: 48px;
   margin-top: 32px;
+  margin-bottom: 124px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
 }
