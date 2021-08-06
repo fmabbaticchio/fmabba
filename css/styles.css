@@ -474,10 +474,6 @@ h1, h2, h3, h4, h5, h6, .font-name-email-message {
   margin-left: 40px;
 }
 
-.section-title {
-  text-align: center;
-}
-
 .row {
   display: flex;
 
@@ -573,21 +569,8 @@ h1, h2, h3, h4, h5, h6, .font-name-email-message {
   color: #FFFFFF;
 }
 
-input[type=text] {
-  padding:10px;
-  margin:10px 0;
-}
-
-.subdiv-name-email {
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-  width: 50%;
-  max-width: 100%;
-  margin: 0;
-}
-
 .section-title {
+  text-align: center;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -597,6 +580,7 @@ input[type=text] {
 }
 
 .section-subtitle {
+  text-align: center;
   margin-top: 16px;
   margin-bottom: 64px;
   font-style: normal;
@@ -604,72 +588,24 @@ input[type=text] {
   font-size: 32px;
   line-height: 41px;
   color: #2D2D2D;
-    
 }
 
-.name-position-font {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 18px;
-  color: rgba(45, 45, 45, 0.8);
+.name-email-input-general-position {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 
-.email-position-font {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 18px;
-  color: rgba(45, 45, 45, 0.8);
-}
-
-.text-area {
+.name-email-input-position-style {
   display: flex;
   flex-direction: column;
-  width: 60%;
 }
 
-.message-textarea-margin {
-  margin-top: 32px;
-}
-
-.textarea-margin {
-  margin-top: 16px;
-}
-
-.font-name-email-message {
-  font-size: 14px;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 18px;
-}
-
-.input-text-rectangle {
-  width: 385px;
-  height: 40px;
-  border: 1px solid rgba(45, 45, 45, 0.2);
-  box-sizing: border-box;
-  border-radius: 8px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 32px;
-  color: #2D2D2D;
-}
-
-.button2 {
-  width: 122px;
-  height: 48px;
-  margin-top: 32px;
-  margin-bottom: 124px;
-  background-color: black;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+.textarea-position-style {
   display: flex;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 8px;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 60%;
 }
 
 .button2-position {

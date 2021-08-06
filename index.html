@@ -106,30 +106,28 @@
             </div>
         </div>
     </section>
-    <section class="container" id="contactme">
-        <div class="section-title">
+    <section class="container">
+        <div>
             <h2 class="section-title">Do you have any questions?</h2>
             <h1 class="section-subtitle">Contact me</h1>
         </div>
         <form action="mailto">
-            <div class="container text-area">
-                <div class="container row">
-                    <div>
-                        <label class="font-name-email-message" for="name">Name:</label>
-                        <input class="input-text-rectangle" placeholder="Jane Doe" type="text" id="name" name="name" required>
-                    </div>
-                    <div>
-                        <label class="font-name-email-message" class="email-position-font" for="email">E-mail:</label>
-                        <input class="input-text-rectangle" placeholder="janedoe@max.com" type="text" id="email" name="email" required>
-                    </div>
+            <div class="name-email-input-general-position">
+                <div class="name-email-input-position-style">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Jane Doe" id="email" name="email" required>
+                </div>
+                <div class="name-email-input-position-style">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="janedoe@max.com" id="email" name="name" required>
                 </div>
             </div>
-            <div class="container text-area">
-                <label class="font-name-email-message message-textarea-margin" for="Message">Message:</label>
-                <textarea class="textarea-margin" placeholder="Write your message here..." name="Message" id="Message" cols="120" rows="10" required></textarea>
-                <div class="container button2-position">
-                    <button class="button2" href="#contactme">Send<img class="arrow-button1" src="img/arrow-right.svg" alt="arrow"></button>
-                </div>
+            <div class="container textarea-position-style">
+                <label for="Message">Message:</label>
+                <textarea placeholder="Write your message here..." name="Message" id="Message" cols="120" rows="10" required ></textarea>
+            </div>
+            <div class="button2-position">
+                <button class="button1" href="#contactme">Send<img class="arrow-button1" src="img/arrow-right.svg" alt="arrow"></button>
             </div>
         </form>
     </section>
