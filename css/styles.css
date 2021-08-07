@@ -559,6 +559,15 @@ h1, h2, h3, h4, h5, h6, .font-name-email-message {
 
 .skillboxes-name {
   margin: 40px 0px 24px 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  color: #2D2D2D;
+}
+
+.skillboxes-name-javascript {
+  color: #FFFFFF;
 }
 
 .codebox-javascript {
