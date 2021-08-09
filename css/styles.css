@@ -402,7 +402,7 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, .font-name-email-message {
+h1, h2, h3, h4, h5, h6, .label-font {
   font-family: space-grotesk;
 }
 
@@ -476,7 +476,6 @@ h1, h2, h3, h4, h5, h6, .font-name-email-message {
 
 .row {
   display: flex;
-
 }
 
 .subsection-text {
@@ -601,7 +600,9 @@ h1, h2, h3, h4, h5, h6, .font-name-email-message {
 
 .name-email-input-general-position {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 70%;
 }
 
 .name-email-input-position-style {
@@ -609,20 +610,52 @@ h1, h2, h3, h4, h5, h6, .font-name-email-message {
   flex-direction: column;
 }
 
+.label-font {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(45, 45, 45, 0.8);
+}
+
+.placeholder-font {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: rgba(45, 45, 45, 0.4);
+}
+
 .textarea-position-style {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 60%;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .button2-position {
   display: flex;
   justify-content: flex-end;
+  margin: 0 auto;
+  max-width: 70%;
+  margin-bottom: 124px;
 }
 
 .inputtext-textarea-boxes {
   border: 1px solid rgba(45, 45, 45, 0.2);
   box-sizing: border-box;
   border-radius: 8px;
+  height: 40px;
+  width: 385px;
+  margin-top: 16px;
+  margin-bottom: 32px;
 }
+
+.textarea-position {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  box-sizing: border-box;
+  border-radius: 8px;
+} 
