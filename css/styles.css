@@ -598,17 +598,22 @@ h1, h2, h3, h4, h5, h6, .label-font {
   color: #2D2D2D;
 }
 
+.form-container {
+  width: 900px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 .name-email-input-general-position {
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 70%;
+  justify-content: space-around;
+  max-width: 100%;
 }
 
 .name-email-input-position-style {
   display: flex;
   flex-direction: column;
-  max-width: 70%;
+  max-width: 100%;
 }
 
 .label-font {
@@ -648,7 +653,6 @@ h1, h2, h3, h4, h5, h6, .label-font {
   box-sizing: border-box;
   border-radius: 8px;
   height: 40px;
-  width: 385px;
   margin-top: 16px;
   margin-bottom: 32px;
 }
