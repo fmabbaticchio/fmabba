@@ -671,4 +671,5 @@ h1, h2, h3, h4, h5, h6, .label-font {
   border: 1px solid rgba(45, 45, 45, 0.2);
   box-sizing: border-box;
   border-radius: 8px;
+  resize: none;
 } 
